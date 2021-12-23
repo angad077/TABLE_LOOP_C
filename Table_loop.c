@@ -8,7 +8,7 @@ int main()
     printf(" what is your table\n");
     scanf("%d", &table);
     printf("**Multiplication table of %d is**\n\n", table);
-    for (i = 1; i < 11; i++)
+    for (i = 1; i <= 10; i++)
     {
         printf("%d * %d = %d \n", table, i, table * i);
     }
